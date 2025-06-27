@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Website cá nhân</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<style>
+  body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #ffc0cb;
+  padding: 20px;
+  text-align: center;
+  color:  #d63384;
+}
+
+header h1 {
+  margin: 0px;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+/* Container để chia layout 2 cột */
+.container {
+  display: flex;
+  min-height: 550px;
+}
+
+/* Nav bên trái */
+nav {
+  background-color: #fff0f5;
+  padding: 40px;
+  width: 170px;
+}
+
+nav ul {
+  list-style-type: square;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+    font-size: 16px;
+}
+
+nav ul ol a {
+  color: #d63384;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul ol a:hover {
+  text-decoration: underline;
+}
+
+/* Nội dung chính */
+main {
+  flex: 1;
+  background-color: #fcdff0;
+  padding: 30px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #b03060;
+}
+
+section h3 {
+  color: #c71585;
+  font-size: 20px;
+}
+
+section p {
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+section h4 {
+  color: #c71585;
+  font-size: 20px;
+}
+
+section p {
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+
+section h5 {
+  color: #c71585;
+  font-size: 20px;
+}
+
+section p {
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+
+
+section h6 {
+  color: #c71585;
+  font-size: 20px;
+}
+
+section p {
+  font-size: 16px;
+  color: #333;
+}
+/* Footer */
+footer {
+  background-color: #ffc0cb;
+  padding: 5px;
+  font-size: 15px;
+  color: #lightgrey;
+  text-align: center;
+}
+
+
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skill-item {
+  text-align: center;
+  width: 150px;
+}
+
+.skill-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* khoảng cách giữa ảnh */
+  margin-top: 20px;
+}
+
+.image-row img {
+  width: 350px; /* điều chỉnh kích thước ảnh nếu cần */
+  border-radius: 10px;
+}
+
+
+</style>
+<body>
+  <header>
+    <h1>Trang Chủ</h1>
+   
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li> Nội dung </li>
+         <ol>-Đôi lời gửi gắm</ol>
+        <ol>-Giới thiệu</ol>
+        <ol>-Kĩ năng </ol>
+        <ol>-Thông tin liên hệ </ol>
+        
+        
+      </ul>
+    </nav>
+
+    <main>
+   
+      <section>
+        <h3> Bạn thân mến</h3>
+     <p>Tôi luôn quan niệm rằng:</p>
+        <p>Cuộc sống của bạn chỉ thật sự ý nghĩa và trọn vẹn khi bạn biết giữ gìn và nuôi dưỡng ước mơ, biết ghi nhận, biết tin vào những lời hứa!</p> <br>
+        
+     <img src="https://scov.gov.vn/upload/2005660/fck/150006_hanh-trinh.jpg" 
+     alt="Cuộc sống ý nghĩa" 
+     width="350" 
+     style="display: block; margin: 20px auto; border-radius: 10px;">
+   
+ <h4> Giới thiệu về tôi</h4>
+ <p>Tôi tên Nguyễn Thị Ngọc Diệp, năm nay 21 tuổi, tôi đén từ mảnh đất Hưng Yên nổi tiếng với câu nói "Thứ nhất kinh kì, thứ nhì Phố Hiến" </p>
+    <p>Gia đình tôi hiện có 4 thành viên đó là bố tôi, mẹ tôi, anh trai và cả tôi nữa.</p>
+    <p>Tôi hiện đang là sinh viên năm 3 tại Học Viện Nông Nghiệp Việt Nam, ngôi trường tọa lạc tại Thị Trấn Trâu Quỳ- Huyện Gia Lâm- Hà Nội</p>
+    <p>Xuất thân là con nhà nông tôi mang theo tất cả những tâm huyết và hy vọng to lớn về một tương lai tốt đẹp mà bố mẹ tôi chưa từng được chạm tới, hy vọng tôi sẽ ra trường đúng hạn và sẽ có một công việc tốt, đó như là một lời cảm ơn to lớn mà tôi gửi đến bố mẹ!</p> <br> 
+ 
+<div class="image-row">
+  <img src="https://www.quanlynhanuoc.vn/wp-content/uploads/2021/12/phohienhungyen.jpg" alt="Ảnh 1"     width="350">
+  <img src="https://xdcs.cdnchinhphu.vn/446259493575335936/2024/8/18/nn1-17239512376531343079339.jpg" alt="Ảnh 2"     width="250">
+</div>
+
+    <h5> Kĩ năng tôi có</h5>
+<div class="skills-container">
+  <div class="skill-item">
+    <p>Giao tiếp</p>
+    <img src="https://tuyendung.dkpharma.vn/wp-content/uploads/2023/10/ky-nang-giao-tiep-la-gi.jpg" alt="Giao tiếp">
+  </div>
+  <div class="skill-item">
+    <p>Làm việc nhóm</p>
+    <img src="https://cuocsongdungnghia.com/wp-content/uploads/2018/07/lam-viec-nhom.jpg" alt="Làm việc nhóm">
+  </div>
+  <div class="skill-item">
+    <p>Quản lý thời gian</p>
+    <img src="https://lh6.googleusercontent.com/NN6ZEZrBb3TOSsGvKM7QCtClYcFEg2nkXR8HbaGhL6KflBlPRgmw_cvgBwCSZhOBX9lERASJS0j1E1n6L3ImNBjj8U4e_tFn_dCWAvQylRQThOlZER6Q5hHA3_KxuHkZbMSmyvRDWpNIa7LUWiURGcg" alt="Quản lý thời gian">
+  </div>
+  <div class="skill-item">
+    <p>Giải quyết vấn đề</p>
+    <img src="https://maisonoffice.vn/wp-content/uploads/2023/09/ky-nang-giai-quyet-van-de-ky.jpg" alt="Giải quyết vấn đề">
+  </div>
+  <div class="skill-item">
+    <p>Thuyết trình</p>
+    <img src="https://storage.googleapis.com/youth-media/editor-files/rjo1gYryp9ALtU1RmjwodXQlc4zY9bI2TAfHHiyN.png" alt="Thuyết trình">
+  </div>
+  <div class="skill-item">
+    <p>Tự học và chủ động</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4gLCuIg4YM4LZbybfHaGIbiUg5Dst5VOtNCbAykpgm_Tr6QpwtCHqgmoT6etUc0TDs_0&usqp=CAU" alt="Tự học và chủ động">
+  </div>
+</div>
+
+
+      </section>
+    </main>
+  </div>
+  <footer>
+
+    <p>Đ/c: Trâu Quỳ - Gia Lâm - Hà Nội</p>
+    <p>Email: nguyenthingocdiep@email.com</p>
+    <p>Điện thoại: 0901 234 567</p>
+    <p>Facebook: fb.com/ngocdiep</p>
+  </footer>
+</body>
+</html>
